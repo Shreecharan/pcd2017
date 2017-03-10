@@ -12,7 +12,6 @@
 		int i;
 		term = sum = diff = x;
 		for (i = 3; diff > 0.00001; i = i + 2)
-			;
 		{
 			prev = term;
 			term = (-term * x * x) / (i * (i - 1));
